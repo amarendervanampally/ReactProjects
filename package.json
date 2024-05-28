@@ -1,0 +1,36 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "this is amar welcome to reactjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "author": "amar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "@rspack/core": "^0.6.3",
+    "parcel-bundler": "^1.12.5",
+    "postcss-loader": "^8.1.1",
+    "postcss-modules": "^6.0.0",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.8.0",
+    "@reduxjs/toolkit": "^2.2.3",
+    "dom": "^0.0.3",
+    "next": "^14.1.4",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.22.3",
+    "router": "^1.3.8",
+    "sass": "^1.72.0"
+  }
+}
